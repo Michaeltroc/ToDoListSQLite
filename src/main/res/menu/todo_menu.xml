@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addItem"
+        android:alphabeticShortcut="a"
+        android:icon="@drawable/add_new_item"
+        android:numericShortcut="0"
+        android:title="@string/add_new"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/removeItem"
+        android:alphabeticShortcut="r"
+        android:icon="@drawable/remove_item"
+        android:numericShortcut="1"
+        android:title="@string/remove"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/addQR"
+        android:alphabeticShortcut="q"
+        android:icon="@drawable/add_qr"
+        android:numericShortcut="4"
+        android:title="@string/add_qr"
+        app:showAsAction="always"></item>
+
+</menu>
